@@ -1,5 +1,5 @@
 public class problem1 {
-    static int binary(int[] arr, int target) {
+    static int FindTargetValue(int[] arr, int target) {
         int low = 0;
         int count=-1 ;
         int high = arr.length - 1;
@@ -23,7 +23,7 @@ public class problem1 {
 
     public static void main(String[] args) {
         int[] arr = {-1, 0, 3, 9, 9,9,9, 12};
-        int result = binary(arr, 9);
+        int result = FindTargetValue(arr, 9);
         if (result == -1) {
             System.out.println("Element is not present in the given array ");
         } else {
